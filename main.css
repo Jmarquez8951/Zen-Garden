@@ -48,3 +48,38 @@ header h1 {
     align-items: flex-start;
     justify-content: space-evenly;
 }
+
+/* right side selection area */
+
+.side-panel {
+    opacity: 80%;
+    position: absolute;
+    top: 250px;
+    left: 800px;
+    padding: 9px;
+    margin: 0;
+    background-color: khaki;
+    color: grey;
+    display: inline-block;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.side-panel h3 {
+    color: black;
+}
+
+.side-panel ul li {
+    list-style: none;
+    text-decoration: underline;
+    padding: 5px;
+}
+
+a {
+    color: black;
+}
+
+
+
+
+
+
