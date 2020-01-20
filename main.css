@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     border: 60px solid #e6ffe6;
+    color: white;
 }
 
 /* Heading */
@@ -52,12 +53,14 @@ header h1 {
 /* right side selection area */
 
 .side-panel {
-    opacity: 80%;
+    opacity: 85%;
     position: absolute;
-    top: 250px;
+    top: 180px;
     left: 800px;
     padding: 9px;
+    padding-top: 80px;
     margin: 0;
+    height: 900px;
     background-color: khaki;
     color: grey;
     display: inline-block;
@@ -66,19 +69,29 @@ header h1 {
 
 .side-panel h3 {
     color: black;
+    padding-left: 40px;
 }
 
 .side-panel ul li {
     list-style: none;
     text-decoration: underline;
     padding: 5px;
+    padding-bottom: 20px;
 }
 
 a {
     color: black;
 }
 
-
+.box {
+    left: 850px;
+    opacity: 80%;
+    position: absolute;
+    background-color: black;
+    width: 375px;
+    height: 3000px;
+    top: -900px;
+}
 
 
 
