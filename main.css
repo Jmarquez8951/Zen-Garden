@@ -153,3 +153,47 @@ a {
     background-color: red;
     z-index: 5;
 }
+
+/* bottom paragraphs css */
+
+.last-paragraphs {
+    display: flex;
+    justify-content: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.last-paragraphs h3 {
+    font-weight: lighter;
+    font-size: 40px;
+}
+
+.left-paragraph {
+    margin-left: 30px;
+    padding: 20px 45px;
+    opacity: 90%;
+    background-color: white;
+    color: black;
+    width: 200px;
+    align-self: center;
+}
+
+.right-paragraph {
+    padding: 40px 50px;
+    width: 640px;
+    opacity: 90%;
+    background-color: white;
+    color: black;
+    z-index: 5;
+}
+
+#last-paragraph {
+    border-bottom: 1px solid red;
+}
+
+.paragraph-footer {
+    font-weight: lighter;
+}
+
+
