@@ -83,16 +83,73 @@ a {
     color: black;
 }
 
+/* black side box */
+
 .box {
     left: 850px;
     opacity: 80%;
     position: absolute;
     background-color: black;
     width: 375px;
-    height: 3000px;
+    height: 4000px;
     top: -900px;
 }
 
+/* first paragraph "The Road to Enlightenment" */
 
+.first-paragraph {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    background-color: white;
+    color: black;
+    position: relative;
+    right: 100px;
+    font-family: 'Quicksand', sans-serif;
+    height: 400px;
+    width: 700px;
+    padding: 50px 50px 0 50px;
+    opacity: 80%;
+}
 
+.first-paragraph h3 {
+    font-size: 30px;
+    margin-left: 60px;
+}
 
+.first-paragraph p {
+    margin-left: 60px;
+    font-size: 17px;
+}
+
+/* Two paragraph's css */
+
+.two-paragraphs {
+    margin-top: 100px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.two-paragraphs h3 {
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+.para-one {
+    height: 600px;
+    width: 400px;
+    padding: 40px;
+}
+
+.para-two {
+    height: 600px;
+    width: 400px;
+    padding: 40px;
+    opacity: 70%;
+    background-color: red;
+    z-index: 5;
+}
