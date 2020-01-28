@@ -196,4 +196,29 @@ a {
     font-weight: lighter;
 }
 
+/* footer css */
 
+footer {
+    padding: 10px;
+    margin: 0;
+    margin-left: 55px;
+    background-color: rgb(252, 252, 136);
+    width: 500px;
+}
+
+footer ul {
+    margin: 0;
+    margin-left: -15px;
+    display: flex;
+    flex-flow: row wrap;
+    list-style-type: none;
+}
+
+footer li {
+    padding: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    border-bottom: 1px solid grey;
+}
