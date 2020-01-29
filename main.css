@@ -53,15 +53,14 @@ header h1 {
 /* right side selection area */
 
 .side-panel {
-    opacity: 85%;
     position: absolute;
     top: 180px;
     left: 800px;
     padding: 9px;
     padding-top: 80px;
     margin: 0;
-    height: 900px;
-    background-color: khaki;
+    height: 1000px;
+    background-color: rgba(240, 230, 140, 0.95);
     color: grey;
     display: inline-block;
     font-family: 'Quicksand', sans-serif;
@@ -70,6 +69,8 @@ header h1 {
 .side-panel h3 {
     color: black;
     padding-left: 40px;
+    font-size: 30px;
+    font-weight: lighter;
 }
 
 .side-panel ul li {
@@ -87,9 +88,8 @@ a {
 
 .box {
     left: 850px;
-    opacity: 80%;
     position: absolute;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.8);
     width: 375px;
     height: 4000px;
     top: -900px;
@@ -101,7 +101,7 @@ a {
     display: flex;
     flex-direction: column;
     align-content: flex-end;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.8);
     color: black;
     position: relative;
     right: 100px;
@@ -109,7 +109,6 @@ a {
     height: 400px;
     width: 700px;
     padding: 50px 50px 0 50px;
-    opacity: 80%;
 }
 
 .first-paragraph h3 {
@@ -149,8 +148,7 @@ a {
     height: 600px;
     width: 400px;
     padding: 40px;
-    opacity: 70%;
-    background-color: red;
+    background-color: rgba(255, 0, 0, 0.7);
     z-index: 5;
 }
 
@@ -172,8 +170,7 @@ a {
 .left-paragraph {
     margin-left: 30px;
     padding: 20px 45px;
-    opacity: 90%;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.9);
     color: black;
     width: 200px;
     align-self: center;
@@ -182,8 +179,7 @@ a {
 .right-paragraph {
     padding: 40px 50px;
     width: 640px;
-    opacity: 90%;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.9);
     color: black;
     z-index: 5;
 }
@@ -196,4 +192,33 @@ a {
     font-weight: lighter;
 }
 
+/* footer css */
 
+footer {
+    padding: 10px;
+    margin: 0 0 55px 0;
+    margin-left: 55px;
+    background-color: rgb(252, 252, 136);
+    width: 500px;
+}
+
+footer ul {
+    margin: 0;
+    margin-left: -15px;
+    display: flex;
+    flex-flow: row wrap;
+    list-style-type: none;
+}
+
+footer li {
+    padding: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    border-bottom: 1px solid grey;
+}
+
+footer a:hover {
+    border-bottom: 1px solid red;
+}
